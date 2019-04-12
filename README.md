@@ -1,9 +1,11 @@
 This is a recursive ray tracer program written in c++ that takes an input file and output images with the ray tracing technique.
 Check the sample output images in the directory "Output_Images".
 
+
 [[[Compile:]]]
 
 Makefile is provided, use cmake to compile.
+
 
 [[[Run:]]]
 
