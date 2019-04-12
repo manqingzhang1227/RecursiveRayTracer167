@@ -17,8 +17,8 @@ endif
 RM = /bin/rm -f
 
 
-all:  hw4
-hw4: main.o World.o Camera.o Geometry.o Ray.o Transform.o readfile.o Matrix.o \
+all:  RecursiveRayTracer
+RecursiveRayTracer: main.o World.o Camera.o Geometry.o Ray.o Transform.o readfile.o Matrix.o \
  	Vector.o Point.o
 	$(CC) $(CFLAGS) $(INCFLAGS) -o hw4 main.o World.o Camera.o Ray.o \
 	Geometry.o Transform.o readfile.o Matrix.o Vector.o Point.o $(LDFLAGS)
